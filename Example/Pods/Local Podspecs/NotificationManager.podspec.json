@@ -1,0 +1,30 @@
+{
+  "name": "NotificationManager",
+  "version": "0.1.0",
+  "summary": "A short description of NotificationManager.",
+  "description": "",
+  "homepage": "https://github.com/giuseppenuc/NotificationManager",
+  "license": "MIT",
+  "authors": {
+    "Giuseppe Nucifora": "me@giuseppenucifora.com"
+  },
+  "source": {
+    "git": "https://github.com/giuseppenuc/NotificationManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "NotificationManager": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "MPGNotification": [
+
+    ]
+  }
+}

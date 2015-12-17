@@ -3,6 +3,8 @@ use_frameworks!
 
 target 'NotificationManager_Example', :exclusive => true do
   pod "NotificationManager", :path => "../"
+  pod 'MPGNotification'
+  
 end
 
 target 'NotificationManager_Tests', :exclusive => true do
@@ -12,4 +14,5 @@ target 'NotificationManager_Tests', :exclusive => true do
   pod 'Expecta'
   pod 'FBSnapshotTestCase'
   pod 'Expecta+Snapshots'
+  
 end

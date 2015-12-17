@@ -1,0 +1,6 @@
+framework module Pods_NotificationManager_Tests {
+  umbrella header "Pods-NotificationManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
